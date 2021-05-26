@@ -1,0 +1,22 @@
+{
+  "name": "setup-aes-ip-access",
+  "version": "1.0.0",
+  "description": "Temporarily add the IP of current Github Action runner to Amazon ElasticSearch access policy.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "package": "ncc build index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/exec": "^1.0.3",
+    "@actions/http-client": "^1.0.11"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.1",
+    "eslint": "^6.8.0"
+  }
+}

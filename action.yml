@@ -1,0 +1,12 @@
+name: 'AES IP Access'
+description: 'Temporarily add the IP of current Github Action runner to Amazon ElasticSearch access policy.'
+inputs: 
+  domain:
+    description: 'Name of your Amazon ElasticSearch domain'
+    required: true
+branding:
+  icon: 'cloud'
+  color: 'orange'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
