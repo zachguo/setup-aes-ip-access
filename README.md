@@ -8,7 +8,7 @@
 
 ```yml
 - name: Setup IP-based Access to AES
-  uses: zachguo/setup-aes-ip-access@v1
+  uses: zachguo/setup-aes-ip-access@v2
   with:
     domain: your-domain # name of your AES domain
 ```
